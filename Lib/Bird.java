@@ -1,13 +1,6 @@
 package Lib;
-
 public class Bird extends Animal {
     public Bird(String name){
-        super(name);
-    }
-    
-    @Override
+        super(name);}
     public String makeSound() {
-        return "Bird Sound" ;
-    }
-    
-}
+        return "Bird Sound" ;}}
